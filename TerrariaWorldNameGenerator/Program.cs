@@ -8,9 +8,10 @@ namespace TerrariaWorldNameGenerator
 	{
 		static void Main(string[] args)
 		{
-			for (int i = 0; i < 1000; i++)
+			while (true)
 			{
 				Console.WriteLine(GetRandomWorldName());
+				Console.ReadLine();
 			}
 		}
 
